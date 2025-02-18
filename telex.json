@@ -8,7 +8,7 @@
     "tick_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/health",
     "app_logo": "https://logomoose.com/wp-content/uploads/2016/12/Quote.png",
     "app_description": "A bot that posts daily programming quotes to a Telex channel.",
-    "descriptions": "App sends programming quotes at interval.",
+    "description": "App sends programming quotes at interval.",
     "author_name": "Gbonjubola",
     "is_active": true,
     "created_at": "2025-02-16",
