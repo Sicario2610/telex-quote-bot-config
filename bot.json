@@ -1,0 +1,38 @@
+{
+   "descriptions": [
+      {
+        "text": "App sends programming quotes at interval"
+      }
+    ],
+  "data": {
+    "id": "0192202e-b6f3-7d23-8025-3f60675cc031",
+    "app_name": "Quote Bot",
+    "integration_type": "interval",
+    "json_url": "https://raw.githubusercontent.com/Sicario2610/telex-quote-bot-config/main/config.json",
+    "app_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app",
+    "tick_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/health",
+    "app_logo": "https://logomoose.com/wp-content/uploads/2016/12/Quote.png",
+    "app_description": "A bot that posts daily programming quotes to a Telex channel.",
+    "author_name": "Gbonjubola",
+    "is_active": true,
+    "created_at": "2025-02-16",
+    "updated_at": "2025-02-17",
+    "settings": {
+      "field_name": "notification_frequency",
+      "value": "daily"
+    },
+    "default_values": {
+      "message": "Welcome to the Daily Quote Integration!"
+    },
+    "target_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/send-quote",
+    "channels": [
+      {
+        "id": "019517ed-cedf-7f82-a888-d6464e215d63",
+        "form_field_label": "Team Updates",
+        "form_field_value": "Enabled",
+        "created_at": "2024-09-23T20:00:08.086829+01:00",
+        "updated_at": "2024-09-23T20:05:12.786829+01:00"
+      }
+    ]
+  }
+}
