@@ -1,5 +1,9 @@
 {
-  "description": "App sends programming quotes at interval.",
+  "descriptions": [
+    {
+      "text": "App sends programming quotes at interval."
+    }
+  ],
   "data": {
     "id": "0192202e-b6f3-7d23-8025-3f60675cc031",
     "app_name": "Quote Bot",
