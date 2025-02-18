@@ -10,7 +10,7 @@
     "app_description": "A bot that posts daily programming quotes to a Telex channel.",
     "author_name": "Gbonjubola",
     "is_active": true,
-    "created_at": "2025-02-17",
+    "created_at": "2025-02-16",
     "updated_at": "2025-02-17",
     "settings": {
       "field_name": "notification_frequency",
