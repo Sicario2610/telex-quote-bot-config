@@ -8,7 +8,7 @@
       "app_description": "A bot that posts daily programming quotes to a Telex channel.",
       "app_logo": "https://logomoose.com/wp-content/uploads/2016/12/Quote.png",
       "app_name": "Quotex",
-      "app_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/send-quote",
+      "app_url": "https://quotex.onrender.com/send-quote",
       "background_color": "#87CEEB"
     },
     "integration_category": "Email & Messaging",
@@ -75,7 +75,7 @@
         "options": ["Super-Admin", "Admin", "Manager", "Developer"]
       }
     ],
-    "tick_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/health",
+    "tick_url": "https://quotex.onrender.com/health",
     "target_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/send-quote"
   }
 }
