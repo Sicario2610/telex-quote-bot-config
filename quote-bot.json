@@ -11,7 +11,7 @@
       "app_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app",
       "background_color": "#FFFFFF"
     },
-    "integration_category": "Interval Integration",
+    "integration_category": "Interval",
     "integration_type": "interval",
     "is_active": true,
     "output": [
