@@ -13,7 +13,7 @@
     },
     "integration_category": "Email & Messaging",
     "integration_type": "interval",
-    "is_active": false,
+    "is_active": true,
     "output": [
       {
         "label": "Quotex_Quotes",
