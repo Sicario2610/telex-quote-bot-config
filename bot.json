@@ -1,9 +1,5 @@
 {
-   "descriptions": [
-      {
-        "text": "App sends programming quotes at interval"
-      }
-    ],
+   
   "data": {
     "id": "0192202e-b6f3-7d23-8025-3f60675cc031",
     "app_name": "Quote Bot",
@@ -11,6 +7,7 @@
     "json_url": "https://raw.githubusercontent.com/Sicario2610/telex-quote-bot-config/main/config.json",
     "app_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app",
     "tick_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/health",
+     "descriptions": ["App to send motivational quotes"]
     "app_logo": "https://logomoose.com/wp-content/uploads/2016/12/Quote.png",
     "app_description": "A bot that posts daily programming quotes to a Telex channel.",
     "author_name": "Gbonjubola",
