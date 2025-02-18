@@ -76,6 +76,6 @@
       }
     ],
     "tick_url": "https://quotex.onrender.com/health",
-    "target_url": "https://hng-12-stage-3-telex-integration-hdx3kqmcx.vercel.app/send-quote"
+    "target_url": "https://quotex.onrender.com/send-quote"
   }
 }
