@@ -75,7 +75,7 @@
         "options": ["Super-Admin", "Admin", "Manager", "Developer"]
       }
     ],
-    "tick_url": "https://quotex.onrender.com/health",
+    "tick_url": "https://ping.telex.im/v1/return",
     "target_url": "https://quotex.onrender.com/send-quote"
   }
 }
