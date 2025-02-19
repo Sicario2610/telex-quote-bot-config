@@ -1,0 +1,81 @@
+{
+  "data": {
+    "date": {
+      "created_at": "2025-02-18",
+      "updated_at": "2025-02-18"
+    },
+    "descriptions": {
+      "app_description": "A bot that posts daily programming quotes to a Telex channel.",
+      "app_logo": "https://logomoose.com/wp-content/uploads/2016/12/Quote.png",
+      "app_name": "Quotex",
+      "app_url": "https://quotex.onrender.com/send-quote",
+      "background_color": "#87CEEB"
+    },
+    "integration_category": "Email & Messaging",
+    "integration_type": "interval",
+    "is_active": true,
+    "output": [
+      {
+        "label": "Quotex_Quotes",
+        "value": true
+      },
+      {
+        "label": "Quotex_Quotes2",
+        "value": false
+      }
+    ],
+    "key_features": [
+      "Posts daily programming quotes.",
+      "Simple configuration and setup.",
+      "Can be customized for various frequencies."
+    ],
+    "permissions": {
+      "monitoring_user": {
+        "always_online": true,
+        "display_name": "Quotex"
+      }
+    },
+    "settings": [
+      {
+        "label": "interval",
+        "type": "text",
+        "required": true,
+        "default": "* * * * *"
+      },
+      {
+        "label": "Message",
+        "type": "text",
+        "required": true,
+        "default": "Welcome to your daily quotes!"
+      },
+      {
+        "label": "Do you want to continue",
+        "type": "checkbox",
+        "required": true,
+        "default": "Yes"
+      },
+      {
+        "label": "Provide Speed",
+        "type": "number",
+        "required": true,
+        "default": "1000"
+      },
+      {
+        "label": "Sensitivity Level",
+        "type": "dropdown",
+        "required": true,
+        "default": "Low",
+        "options": ["High", "Low"]
+      },
+      {
+        "label": "Alert Admin",
+        "type": "multi-checkbox",
+        "required": true,
+        "default": "Super-Admin",
+        "options": ["Super-Admin", "Admin", "Manager", "Developer"]
+      }
+    ],
+    "tick_url": "https://quotex.onrender.com/send-quote",
+    "target_url": "https://quotex.onrender.com/send-quote"
+  }
+}
