@@ -8,7 +8,7 @@
         "app_name": "Quotex",
         "app_description": "A bot that sends quotes to a developer email to motivate him",
         "app_logo": "https://logomoose.com/wp-content/uploads/2016/12/Quote.png",
-        "app_url": "https://quotex.onrender.com",
+        "app_url": "https://quotex-ig72.onrender.com",
         "background_color": "#FFFFFF"
       },
       "is_active": true,
@@ -45,7 +45,7 @@
           "default": "* * * * *"
         }
       ],
-      "target_url": "https://quotex.onrender.com/health",
-      "tick_url": "https://quotex.onrender.com/send-quote"
+      "target_url": "https://quotex-ig72.onrender.com/health",
+      "tick_url": "https://quotex-ig72.onrender.com/send-quote"
     }
   }
