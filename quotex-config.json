@@ -1,0 +1,51 @@
+{
+    "data": {
+      "date": {
+        "created_at": "2025-02-17",
+        "updated_at": "2025-02-17"
+      },
+      "descriptions": {
+        "app_name": "Quotex",
+        "app_description": "A bot that sends quotes to a developer email to motivate him",
+        "app_logo": "https://logomoose.com/wp-content/uploads/2016/12/Quote.png",
+        "app_url": "https://quotex-ig72.onrender.com",
+        "background_color": "#FFFFFF"
+      },
+      "is_active": true,
+      "integration_type": "interval",
+      "integration_category": "Email & Messaging",
+      "key_features": [
+        "Email notifications",
+        "Customizable reminder intervals",
+        "Simple and lightweight setup"
+      ],
+      "permissions": {
+        "monitoring_user": {
+          "always_online": true,
+          "display_name": "Quotex"
+        }
+      },
+      "output": [
+        {
+          "label": "Motivational Quotes",
+          "value": true
+        }
+      ],
+      "settings": [
+        {
+          "label": "User Email",
+          "type": "text",
+          "required": true,
+          "default": ""
+        },
+        {
+          "label": "interval",
+          "type": "text",
+          "required": true,
+          "default": "* * * * *"
+        }
+      ],
+      "target_url": "https://quotex-ig72.onrender.com/health",
+      "tick_url": "https://quotex-ig72.onrender.com/send-quote"
+    }
+  }
